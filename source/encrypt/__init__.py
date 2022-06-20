@@ -10,7 +10,7 @@ import aiohttp
 
 from cryptography.fernet import Fernet
 
-encryption_key = hashlib.sha256(b'Randomsecretkeyforprototype').digest()
+encryption_key = b'2abIJIe2xU91osdOME9H27O8HBIk20lYNoCOR0iIqik='
 
 async def send_request(encrypted_data,fname):
     url = 'http://localhost:7071/api/save'
