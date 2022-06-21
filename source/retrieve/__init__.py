@@ -11,7 +11,7 @@ import hashlib
 from cryptography.fernet import Fernet
 
 
-encryption_key = hashlib.sha256(b'Randomsecretkeyforprototype').digest()
+encryption_key = b'2abIJIe2xU91osdOME9H27O8HBIk20lYNoCOR0iIqik='
 connect_str = "DefaultEndpointsProtocol=https;AccountName=sbivideocompressor;AccountKey=6kwas2q/CgeMBb05D1LYs5wUlGJby+5Va/291rqa5Y8faIlXAZusnAxoi7KuVt6mZelZvHgCwxDi+AStDbPseg==;EndpointSuffix=core.windows.net"
 container_name = "output-videos"
 
